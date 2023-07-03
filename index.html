@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Final Project Food Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style/css/bootstrap.css">
+    <script src="https://kit.fontawesome.com/d30ff5ad29.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+    <header id="header">
+        <nav>
+            <div class="logo">
+                <h1>Restoran <span>KU</span></h1>
+            </div>
+            <ul class="nav-links">
+                <li><a class="menu-links" href="#header">BERANDA</a></li>
+                <li><a class="menu-links" href="#menu-pakett">MENU FINE DINING</a></li>
+                <li><a class="menu-links" href="#menu-id">MENU PILIHAN</a></li>
+                <li><a class="menu-links" href="#team">DEVELOPER</a></li>
+                <li><a class="menu-links" href="#FAQ">FAQ</a></li>
+            </ul>
+            <div class="nav-btn">
+                <button class="cart-btn"><i class="fas fa-cart-plus"></i> KERANJANG</button>
+                <button class="get-started">SIGN - UP</button>
+            </div>
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </nav>
+    </header>
+    <button onclick="topFunction()" id="myBtn"><i class="fas fa-arrow-up"></i></button>
+    <main>
+        <!-- MAIN  -->
+        <div class="main-content">
+            <h1>Hallo Pengguna!</h1>
+            <h4>Bayangkan melahap makanan lezat dan nikmat setiap hari tanpa harus memasak.</h4>
+            <button class="Btn">klik disini</button>
+            <br>
+            <div class="color-overlay"></div>
+        </div>
+
+        <!-- SECTION 1 -->
+        <div class="section-1">
+            <div class="sub-div">
+                <img src="Images/menu.png" alt="menu">
+                <h2>Berbagai macam menu pilihan</h2>
+                <p>Tersedia berbagai macam menu masakan yang lezat dan selalu hangat.</p>
+            </div>
+            <div class="sub-div">
+                <img src="Images/heart.png" alt="menu">
+                <h2>Perut kenyang hatipun senang</h2>
+                <p>Anda dapat merasakan kenikmatan tiap masakan yang disajikan sehingga anda merasa bahagia selalu.</p>
+            </div>
+            <div class="sub-div">
+                <img src="Images/fresh.png" alt="menu">
+                <h2>Menggunakan bahan segar</h2>
+                <p>Kami mengedepankan kesegaran bahan baku dalam pembuatan masakan.</p>
+            </div>
+        </div>
+
+        <!-- SECTION 2 -->
+        <div class="section-2">
+            <div class="text">
+                <div class="text-content">
+                    <h4>Quote Sehat</h4>
+                    <h2>Padu padankan makanan Anda untuk mendapatkan paket makanan yang akan Anda sukai.</h2>
+                    <p>Pilih menu masakan sesuai keinginan anda lalu nikmati berbagai rasa dan kenikmatan yang tiada
+                        dua.</p>
+                    <button><a href="#menu-id"> LIHAT MENU</a></button>
+                </div>
+            </div>
+            <div class="image">
+                <img src="Images/section-2 bg.jpg" alt="Food">
+            </div>
+        </div>
+
+        <!-- SECTION 3 -->
+        <div class="section-3">
+            <div class="image-3">
+                <img src="Images/Plate-2.png" alt="food">
+            </div>
+            <div class="text-3">
+                <div class="text-3-content">
+                    <h4>Menu yang paling diburu</h4>
+                    <h2>stir-fried chickpeas with beef</h2>
+                    <p>Tumis buncis yang dipadukan dengan daging sapi kecap yang dimasak dengan bahan baku segar yang
+                        membuat citarasa dan aroma dapat menggugah selera makan anda.
+                    </p>
+                    <div class="list-content">
+                        <i class="fas fa-book"></i>
+                        <h5>Pilih Makanan Favoritmu</h5>
+                    </div>
+                    <div class="list-content">
+                        <i class="fas fa-rocket"></i>
+                        <h5>Kami Masak & Antarkan</h5>
+                    </div>
+                    <div class="list-content">
+                        <i class="fas fa-pizza-slice"></i>
+                        <h5>Selalu Hangat</h5>
+                    </div>
+                    <div class="list-content">
+                        <i class="far fa-heart"></i>
+                        <h5>Enjoy & Repeat</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br>
+        <!-- MENU KHUSUS -->
+        <div class="menu" id="menu-pakett"
+            style="width: 100%; height: 20px; background-color: transparent; margin-bottom: 80px;"></div>
+        <div class="chef-meal-section" id="menu-paket">
+            <div class="meal-plans-text">
+                <h4>Memu Khusus</h4>
+                <h2>Menu Paket Fine Dining</h2>
+                <p> Layanan lengkap dengan masakan spesial untuk anda. Menyajikan bahan masakan
+                    berkualitas lebih tinggi, dengan tempat makan yang eksklusif dan mewah sehingga tamu dapat menikmati
+                    suasana.
+                    Didukung dengan pelayanan kepada pelanggan yang super nyaman.</p>
+            </div>
+            <div class="all-cards">
+                <div class="card">
+                    <img src="Images/card-1.jpg" alt="food" style="width:100%">
+                    <div class="card-text">
+                        <div class="price-block">
+                            <h5>Rp. 699.000</h5>
+                            <h6>per <br> orang</h6>
+                        </div>
+                        <h4>Exclusive Fine Dining</h4>
+                        <p>Dalam paket ini tersedia : Appetizer, Amouse-bouche, Main Course, Salad, Dessert, Mignardise
+                        </p>
+                        <button class="btn1">PESAN DISINI</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="Images/card-2.jpg" alt="food" style="width:100%">
+                    <div class="card-text">
+                        <div class="price-block">
+                            <h5 style="color: #00A36C;">Rp. 449.000</h5>
+                            <h6>per <br>orang</h6>
+                        </div>
+                        <h4>Elite Fine Dining</h4>
+                        <p>Dalam paket ini tersedia : Appetizer, Main Course, Salad, Dessert, Mignardise</p>
+                        <button class="btn2">PESAN DISINI</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="Images/card-3new.jpg" alt="food" style="width:100%">
+                    <div class="card-text">
+                        <div class="price-block">
+                            <h5 style="color: #FB8C23;">Rp.199.000</h5>
+                            <h6>per <br> orang</h6>
+                        </div>
+                        <h4>Classic Fine Dining</h4>
+                        <p>Dalam paket ini tersedia : Appetizer, Main Course, Salad, Dessert</p>
+                        <button class="btn3">PESAN DISINI</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <!-- SECTION 4 -->
+        <div class="autopilot-section">
+            <h1>Feel good<span style="font-family: 'Homemade Apple';">Feed your good</span></h1>
+            <button class="Btn">Klik Disini</button>
+            <div class="color-overlay"></div>
+        </div>
+
+        <!-- MENU PILIHAN -->
+        <div class="explore-menu-section" id="menu-id">
+            <div class="menu-text">
+                <h4>Menu Pilihan</h4>
+                <h2>Menu Spesial</h2>
+                <p>Terdapat menu spesial yang wajib anda coba dan rasakan citarasa rempah dan aroma yang dapat menggugah
+                    selera makan anda sehingga dapat membuat anda bahagia.</p>
+            </div>
+            <div class="all-dishes">
+                <div class="dish">
+                    <div class="dish-image">
+                        <img src="Images/home-img-1.png" alt="food">
+                    </div>
+                    <div class="dish-text">
+                        <h4>Spaghetti Bolognese With Tofu </h4>
+                        <div class="dish-price-block">
+                            <h5>Rp. 149.000</h5>
+                            <h6>Rp. 300.000</h6>
+                        </div>
+                        <p>Spaghetti yang disajikan Bersama campuran saus tomat, daging giling dan juga tofu. Serta
+                            beberapa bumbu dan daun herbal seperti oregano dan basil, minyak zaitun dan sayuran. Dan
+                            taburan keju di atas spaghetti.</p>
+                        <button class="add-to-cart-btn">PESAN DISINI</button>
+                    </div>
+                </div>
+                <div class="dish">
+                    <div class="dish-image">
+                        <img src="Images/udang.jpg" alt="food" width="140%">
+                    </div>
+                    <div class="dish-text">
+                        <h4>Rice With Tomyam Shirp Coriander Leaves </h4>
+                        <div class="dish-price-block">
+                            <h5>Rp. 99.000</h5>
+                            <h6>Rp. 200.000</h6>
+                        </div>
+                        <p>Tomyam atau doomyam adalah sup yang berasal dari Thailand. Merupakan salah satu makanan
+                            Thailand yang terkenal. Biasanya Tom yam dibuat dengan udang (tom yam goong), ayam (tom yam
+                            gai), ikan (tom yam pla), atau makanan laut yang dicampur (tom yam talay atau tom yam po
+                            taek) dan jamur.</p>
+                        <button class="add-to-cart-btn">PESAN DISINI</button>
+                    </div>
+                </div>
+                <div class="dish">
+                    <div class="dish-image">
+                        <img src="Images/gyoza.png" alt="food">
+                    </div>
+                    <div class="dish-text">
+                        <h4>Gyoza With Soy Sauce</h4>
+                        <div class="dish-price-block">
+                            <h5>Rp. 79.000</h5>
+                            <h6>Rp. 100.000</h6>
+                        </div>
+                        <p>Gyoza adalah dumpling atau pangsit khas Jepang yang bisa di isi dengan campuran ayam atau
+                            daging atau udang. Penggunaan kulit pembungkus Gyoza tipis dengan isian sawi, sebagai
+                            pengganti daging.</p>
+                        <button class="add-to-cart-btn">PESAN DISINI</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- DEV -->
+        <div class="testimonials" id="team">
+            <div class="testimonials-text" style="margin-top: 8px;">
+                <h4>Team</h4>
+                <h2>Developer Website ini</h2>
+            </div>
+            <div class="all-clients">
+                <div class="clients">
+                    <img src="Images/rasyiid-new.jpeg" alt="Client">
+                    <h3>A.A.Rais Rasyiid</h3>
+                    <p>21.12.2121</p>
+                    <p>Jobdesk : Programmer javaScript+HTML, Design Prototype Web</p>
+                    <i class="fas fa-quote-left"></i>
+                </div>
+                <div class="clients">
+                    <img src="Images/nabilla-pict.jpeg" alt="Client">
+                    <h3>Nabilla Shalma Fajarani</h3>
+                    <p>21.12.2152</p>
+                    <p>Jobdesk : Programmer CSS+HTML, Design Prototype Web</p>
+                    <i class="fas fa-quote-left"></i>
+                </div>
+                <div class="clients">
+                    <img src="Images/cerlang2.jpeg" alt="Client">
+                    <h3>Cerlang Realis Wijaya</h3>
+                    <p>21.12.2130</p>
+                    <p>Jobdesk : Programmer HTML+CSS, Copywritter</p>
+                    <i class="fas fa-quote-left"></i>
+                </div>
+                <div class="clients">
+                    <img src="Images/chesta2.jpeg" alt="Client">
+                    <h3>Chestarianti Indah M</h3>
+                    <p>21.12.2142</p>
+                    <p>Jobdesk : Programmer HTML+javaScript, Copywritter</p>
+                    <i class="fas fa-quote-left"></i>
+                </div>
+            </div>
+        </div>
+
+        <!-- JOIN NOW -->
+        <div class="join-now">
+            <div class="join">
+                <img src="Images/join-now.png" alt="food" id="join-now">
+                <div class="join-text">
+                    <h5>Menu Sehat</h5>
+                    <h2>Tersedia beberapa menu sehat untuk anda yang vegetarian</h2>
+                    <button>KLIK DISINI</button>
+                </div>
+            </div>
+        </div>
+
+
+
+        <!-- ASKED QUESTIONS -->
+        <div class="asked-question-section" id="FAQ">
+            <div class="question-headings">
+                <h5>Faq</h5>
+                <h2>Frequently Asked<br> Questions</h2>
+            </div>
+            <div class="all-questions">
+                <div class="question">
+                    <div class="question-container">
+                        <h6>Apakah akan ada menu menu baru?</h6>
+                        <img src="Images/drop-down.png" alt="menu">
+                    </div>
+                    <p class="p1 hide answer"></p>
+                </div>
+                <div class="question">
+                    <div class="question-container">
+                        <h6>Berapa lama proses pengiriman makanan?</h6>
+                        <img src="Images/drop-down.png" alt="menu">
+                    </div>
+                    <p class="p2 hide answer"></p>
+                </div>
+                <div class="question">
+                    <div class="question-container">
+                        <h6>Apakah akan ada sesuatu yang menarik dari restoran anda?</h6>
+                        <img src="Images/drop-down.png" alt="menu">
+                    </div>
+                    <p class="p3 hide answer"></p>
+                </div>
+                <div class="question">
+                    <div class="question-container">
+                        <h6>Apakah bisa memesan minuman juga?</h6>
+                        <img src="Images/drop-down.png" alt="menu" width="2%">
+                    </div>
+                    <p class="p4 hide answer"></p>
+                </div>
+            </div>
+        </div>
+
+        <!-- NEWS LETTER  -->
+        <div class="news-letter-section">
+            <div class="news-letter-text">
+                <h2>Ayo <span>berlangganan</span> disini </h2>
+                <input type="email" name="email" id="email" class="text-field" placeholder="Enter your email">
+                <button>Klik disini</button>
+            </div>
+            <div class="color-overlay"></div>
+        </div>
+    </main>
+    <!-- FOOTER -->
+    <footer>
+        <div class="logo f-logo">
+            <h1>Restoran <span>KU</span></h1>
+        </div>
+        <div class="footer-all-content">
+            <div class="footer-content">
+                <h3>ALAMAT</h3>
+                <p>Jl. RingRoad Utara<br>No. 112, Gejayan<br> Yogyakarta</p>
+            </div>
+            <div class="footer-content">
+                <h3>INFO BOOKING</h3>
+                <p>RSVP: untuk info lebih lanjut hubungi nomer dibawah ini</p>
+                <h6>(+62) &nbsp;81897495232</h6>
+            </div>
+            <div class="footer-content">
+                <h3>JAM BUKA RESTORAN</h3>
+                <p>Senin - Jum'at: <span>10.00 - 22.59</span></p>
+                <p>Sabtu: <span>13.00 - 00.00</span></p>
+                <p>Minggu: <span>24 Hours</span></p>
+            </div>
+            <div class="footer-content">
+                <h3>SOSIAL MEDIA</h3>
+                <i class="fab fa-facebook-f"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-instagram"></i>
+                <p>Follow us on</p>
+            </div>
+        </div>
+        <div class="credits">
+            <span style="color: white">Dibuat oleh <a class="s" href="#team">Bambang StartUP</a> | <span
+                    class="far fa-copyright"></span> 2022 All rights
+                reserved.</span>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
